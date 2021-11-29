@@ -1,4 +1,6 @@
 """
+【SageMaker】 着順予想
+
 1. S3バケットから機械学習推論用データ（RaceLearnTable_latest.csv）をダウンロードして読み込み
 2. 推論を実行
 3. レース結果のレコードを特定できる情報と推論結果のDataFrameを作成してCSV出力

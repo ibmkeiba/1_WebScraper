@@ -15,7 +15,7 @@ EC２で競馬データスクレイピング&データベース更新（keiba_cr
           ↓  
 EC２で推論実行用の競馬データを作成&S3にアップロード（keiba2learn.py）  
           ↓  
-SageMakerで競馬レースの着順予想の推論を実行S3にアップロード（model_test_from_learn.py）  
+SageMakerで競馬レース着順予想の推論を実行S3にアップロード（model_test_from_learn.py）  
           ↓  
 推論結果をS3からEC2にダウンロード&データベース更新（keiba2learn.py）  
 

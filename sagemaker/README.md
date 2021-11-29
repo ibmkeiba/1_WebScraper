@@ -2,10 +2,11 @@
 
 ## ファイルの説明
 
-|-- ファイル名 --|-- 説明 --|
-|-- model_test_from_learn.py --|--  --|
-|-- RaceResultTable_latest.csv --|-- 推論実行用の競馬データ --|
-|-- RacePredictedTable.csv --|-- 推論実行結果の競馬データ --|
+| ファイル名 | 説明 |
+| ---- | ---- |
+| model_test_from_learn.py | 着順予想するSageMakerのPythonファイル |
+| RaceResultTable_latest.csv | 推論実行用の競馬データ |
+| RacePredictedTable.csv | 推論実行結果の競馬データ |
 
 
 ## model_test_from_learn.py 実行例

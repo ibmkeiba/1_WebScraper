@@ -9,7 +9,7 @@
 | RacePredictedTable.csv | 推論実行結果の競馬データ |
 
 
-## model_test_from_learn.py 実行例
+## model_test_from_learn.py 実行結果例
 
 -----------------------------------------------------------------------------------------
 

@@ -1,3 +1,10 @@
+"""
+1. S3バケットから機械学習推論用データ（RaceLearnTable_latest.csv）をダウンロードして読み込み
+2. 推論を実行
+3. レース結果のレコードを特定できる情報と推論結果のDataFrameを作成してCSV出力
+4. 機械学習推論用データ（RacePredictedTable.csv）をS3にアップロード
+"""
+
 # ライブラリのインポート
 import boto3
 import pandas as pd
@@ -95,7 +102,7 @@ def uploads3(filepath='RacePredictedTable.csv'):
 
     print(f'■ SageMakerの「{filepath}」からS3に「{filepath}」としてアップロードしました\n')
 
-
+# メイン関数
 def main():
     
     # S3バケットから機械学習推論用データをダウンロードして読み込み： None > DataFrame (ls_df)

@@ -1,4 +1,4 @@
-# 【sagemaker】 の　README
+# 【sagemaker】のREADME
 
 ## ファイルの説明
 

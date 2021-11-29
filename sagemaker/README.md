@@ -6,7 +6,7 @@
 | ---- | ---- |
 | model_test_from_learn.py | 着順予想するSageMakerのPythonファイル |
 | RaceResultTable_latest.csv | 推論実行用の競馬データ |
-| RacePredictedTable.csv | 推論実行結果の競馬データ |
+| RacePredictedTable.csv | 競馬レース着順予想の推論実行データ |
 
 
 ## ワークフロー
@@ -15,7 +15,7 @@ EC2で競馬データスクレイピング&データベース更新（keiba_crea
           ↓  
 EC2で推論実行用の競馬データを作成&S3にアップロード（keiba2learn.py）  
           ↓  
-SageMakerで競馬レース着順予想の推論を実行S3にアップロード（model_test_from_learn.py）  
+SageMakerで競馬レース着順予想の推論実行データを作成&S3にアップロード（model_test_from_learn.py）  
           ↓  
 推論結果をS3からEC2にダウンロード&データベース更新（keiba2learn.py）  
 
